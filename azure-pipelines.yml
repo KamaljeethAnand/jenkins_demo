@@ -15,5 +15,5 @@ steps:
     displayName: 'Install pip'
 
   - script: |
-      python -m unittest test_app.py
+      python3 -m unittest test_app.py
     displayName: 'Run Unittest Tests'
